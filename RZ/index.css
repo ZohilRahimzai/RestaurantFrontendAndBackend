@@ -139,3 +139,62 @@ body {
     color: #16a34a;
 
 }
+
+
+.about, .contact {
+
+    padding: 60px;
+    text-align: center;
+
+}
+  
+.about {
+
+    background-color: #ffffff;
+
+}
+  
+.contact {
+
+    background-color: #0a2540;
+    color: white;
+
+}
+  
+.footer {
+
+    background-color: #020617;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+  
+@media (max-width: 768px) {
+
+.navbar {
+
+      flex-direction: column;
+
+}
+  
+.navbar nav {
+
+      margin-top: 15px;
+
+}
+  
+.hero h1 {
+
+      font-size: 32px;
+
+}
+  
+.menu, .about, .contact {
+
+      padding: 30px;
+
+}
+
+  }
+  
